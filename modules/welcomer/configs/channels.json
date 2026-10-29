@@ -1,5 +1,5 @@
 {
-  "description": "Configure here in which channel which message should get send",
+  "description": "Mentions the user",
   "humanName": "Channel",
   "filename": "channels.json",
   "configElements": true,
@@ -8,7 +8,7 @@
       "name": "channelID",
       "humanName": "Channel",
       "default": "",
-      "description": "Channel in which the message should get send",
+      "description": "Send messages",
       "type": "channelID"
     },
     {
