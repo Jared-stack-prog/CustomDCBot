@@ -39,7 +39,7 @@ module.exports.subcommands = {
         });
         await channel.setParent(category);
         interaction.reply({
-            ephemeral: true,
+            ephemeral: false,
             content: localize('admin-tools', 'changed-category', {cat: category.toString(), c: channel.toString()})
         });
     }
@@ -95,7 +95,7 @@ module.exports.config = {
             options: [
                 {
                     type: 'CHANNEL',
-                    required: true,
+                    required: false,
                     name: 'channel',
                     channelTypes: [ChannelType.GuildText, ChannelType.GuildVoice, ChannelType.GuildAnnouncement, ChannelType.GuildStageVoice],
                     description: localize('admin-tools', 'channel-description')
