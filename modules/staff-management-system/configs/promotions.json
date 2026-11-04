@@ -165,7 +165,7 @@
               "name": "Signed, %promoter-name%",
               "imageURL": "%promoter-avatar%"
             },
-            "title": "🎉 New promotion!",
+            "title": "👋 New promotion!",
             "description": "Congratulations, you have been promoted to **%new-role-name%**!\n\n**Promoted to:** %new-role-mention%\n**On behalf of:** %promoter-mention%\n**Reason:** %reason%",
             "color": "#f1c40f",
             "thumbnailURL": "%user-avatar%"
